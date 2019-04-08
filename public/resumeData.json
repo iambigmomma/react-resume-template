@@ -48,24 +48,28 @@
     ],
     "work":[
       {
+        "logo":"siemens-logo.png",
         "company":"Siemens",
         "title":"Cloud Developer (Working Student)",
         "years":"January 2019 - Present",
-        "description":"• Focused on enterprise applications migration task to AWS \n• Researched on microservices & serverless architecture design\n• AWS Lambda, Appsync, RDS, DynamoDB, Cognito, Amplify, Cloudformation"
+        "description":"I'm wirtting master thesis partner with Siemens internal IT consulting department. In order to migrate the enterprise-based monolithic applications into microservices architecture, I'm conducting refactor solution with AWS. In here, I learned how to analyze the complexity of system and migration methdology for cloud-bative applications "
       },
       {
+        "logo":"navvis-logo.svg",
         "company":"NavVis",
         "title":"Technical Accout Manager (Working Student)",
         "years":"January 2018 - December 2018",
         "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
       },
       {
+        "logo":"toshiba-logo.png",
         "company":"TOSHIBA",
         "title":"Technical Marketing Supervisor",
         "years":"November 2015 - October 2017",
         "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
       },
       {
+        "logo":"Promise_technology-logo.png",
         "company":"Promise Technology",
         "title":"Software Engineer",
         "years":"August 2013 - October 2015",
