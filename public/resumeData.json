@@ -9,7 +9,7 @@
     "email": "jeff.fan27@gmail.com",
     "phone": "555-555-5555",
     "address":{
-      "street":"(Your Street)",
+      "street":"",
       "city":"Munich",
       "state":"Bayern",
       "zip": "80809"
@@ -82,12 +82,12 @@
         "level":"60%"
       },
       {
-        "name":"Illustrator",
-        "level":"55%"
+        "name":"AWS",
+        "level":"70%"
       },
       {
         "name":"ReactJs",
-        "level":"50%"
+        "level":"60%"
       },
       {
         "name":"CSS",
@@ -96,10 +96,6 @@
       {
         "name":"HTML5",
         "level":"80%"
-      },
-      {
-        "name":"VueJs",
-        "level":"50%"
       },
       {
         "name":"MongoDB",

@@ -14,7 +14,7 @@ class Resume extends Component {
       var work = this.props.data.work.map(function(work){
         var company_logo = "images/work/"+work.logo;
         return <div key={work.company} className="row">
-            <div className="three columns main-col">
+            <div className="three columns main-col justify-center">
               <img alt={work.company} src={company_logo} />
             </div>
             <div className="nine columns main-col">
