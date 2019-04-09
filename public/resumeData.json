@@ -3,7 +3,7 @@
     "name":"Jeff Fan",
     "occupation":"software engineer with passion in cloud computing",
     "description":"Professional in cloud computing industry with multinational experiences in software development and hardware engineering",
-    "image":"Jeff.jpeg",
+    "image":"Jeff_Bass.jpg",
     "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "jeff.fan27@gmail.com",
@@ -34,15 +34,17 @@
     "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
+        "logo":"TUM-logo.svg",
         "school":"Technische Universität München",
-        "degree":"Masters in Informatics",
+        "degree":"Masters of science in Informatics",
         "graduated":"October 2017 - Present",
         "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
       },
       {
+        "logo":"nccu-logo.png",
         "school":"National Chengchi University",
-        "degree":"Computer Science",
-        "graduated":"June 2008",
+        "degree":"B.S. in Computer Science",
+        "graduated":"September 2008 - June 2012",
         "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
       }
     ],
@@ -52,28 +54,28 @@
         "company":"Siemens",
         "title":"Cloud Developer (Working Student)",
         "years":"January 2019 - Present",
-        "description":"I'm wirtting master thesis partner with Siemens internal IT consulting department. In order to migrate the enterprise-based monolithic applications into microservices architecture, I'm conducting refactor solution with AWS. In here, I learned how to analyze the complexity of system and migration methdology for cloud-bative applications "
+        "description":"To decouple the enterprise-based monolithic applications into microservices architecture, I'm researching on serverless service and databse engine based on customer requirements. I learned how to analyze system's complexity and migration methdology for cloud-bative applications!"
       },
       {
         "logo":"navvis-logo.svg",
         "company":"NavVis",
         "title":"Technical Accout Manager (Working Student)",
         "years":"January 2018 - December 2018",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description":"With the rapid growth of spatial intelligence, NavVis provide a state of art technology in interior scanning and navigation. I worked as a technical account manager to help Taiwan distributors for technical training, trouble-shooting and marketing."
       },
       {
         "logo":"toshiba-logo.png",
         "company":"TOSHIBA",
         "title":"Technical Marketing Supervisor",
         "years":"November 2015 - October 2017",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description":"For HDD and SSD product, I was an evangelist to provide keynotes speech and technical marketing for enterprise clients. By leveraging technical knowledge and client-facing exposure, I accumulated extensive experience how to collaborate with internal team member and external partners. "
       },
       {
-        "logo":"Promise_technology-logo.png",
+        "logo":"promise-technology-logo.png",
         "company":"Promise Technology",
-        "title":"Software Engineer",
+        "title":"Sales Engineer",
         "years":"August 2013 - October 2015",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description":"Rotated in both San Francisco and Taiwan, I integrated the company's first scale-out storage solution with opensource software-Ceph. In here, it opened the gate for heading to cloud computing area then provide me a chance dive into surveillance cloud"
       }
     ],
     "skills":[

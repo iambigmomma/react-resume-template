@@ -1,0 +1,14 @@
+{
+    "home": {
+        "awscloudformation": {
+            "AuthRoleName": "jefffan-website-20190408230211-authRole",
+            "UnauthRoleArn": "arn:aws:iam::267857819154:role/jefffan-website-20190408230211-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::267857819154:role/jefffan-website-20190408230211-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "jefffan-website-20190408230211-deployment",
+            "UnauthRoleName": "jefffan-website-20190408230211-unauthRole",
+            "StackName": "jefffan-website-20190408230211",
+            "StackId": "arn:aws:cloudformation:eu-west-1:267857819154:stack/jefffan-website-20190408230211/9477e410-5a41-11e9-ad9e-023c5f756674"
+        }
+    }
+}

@@ -6,22 +6,30 @@ class Resume extends Component {
     if(this.props.data){
       var skillmessage = this.props.data.skillmessage;
       var education = this.props.data.education.map(function(education){
-        
-        return <div key={education.school}><h3>{education.school}</h3>
-        <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
-        <p>{education.description}</p></div>
+      var school_logo = "images/education/"+education.logo; 
+        return <div key={education.school} className="row">
+          <div className="nine columns main-col">
+            <h3>{education.school}</h3>
+            <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
+            <p>{education.description}</p>
+          </div>
+          <div className="three columns main-col">
+              <img alt={education.school} src={school_logo} />
+            </div>
+        </div>
       })
       var work = this.props.data.work.map(function(work){
         var company_logo = "images/work/"+work.logo;
         return <div key={work.company} className="row">
-            <div className="three columns main-col justify-center">
-              <img alt={work.company} src={company_logo} />
-            </div>
+            
             <div className="nine columns main-col">
               <h3>{work.company}</h3>
               <p className="info">{work.title}<span>&bull;</span> 
               <em className="date">{work.years}</em></p>
               <p>{work.description}</p>
+            </div>
+            <div className="three columns main-col">
+              <img alt={work.company} src={company_logo} />
             </div>
         </div>
       })
@@ -46,16 +54,17 @@ class Resume extends Component {
       </div>
 
       <div className="row education">
-         <div className="two columns header-col">
+         <div className="two columns">
             <h1><span>Education</span></h1>
          </div>
 
-         <div className="ten columns main-col">
-            <div className="row item">
+         <div className="ten columns">
+         {education}
+            {/* <div className="row item">
                <div className="twelve columns">
                  {education}
                </div>
-            </div>
+            </div> */}
          </div>
       </div>
 
