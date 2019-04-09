@@ -34,7 +34,7 @@
     "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
-        "logo":"TUM-logo.svg",
+        "logo":"tum-logo.svg",
         "school":"Technische Universität München",
         "degree":"Masters of science in Informatics",
         "graduated":"October 2017 - Present",
