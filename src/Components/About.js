@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Interest from './Interest';
 
 class About extends Component {
   render() {
@@ -38,6 +39,9 @@ class About extends Component {
                      <span>{email}</span>
 					   </p>
                </div> */}
+               <div>
+                  <Interest />
+               </div>
                <div className="columns download">
                   <p>
                      <a href={resumeDownload} className="button"><i className="fa fa-download"></i>Download Resume</a>
