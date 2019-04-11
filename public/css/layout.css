@@ -1009,3 +1009,76 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
+/* ------------------------------------------------------------------ */
+/* J. Interest Section
+/* ------------------------------------------------------------------ */
+
+#interest {
+   background: #ebeeee;
+   padding-top: 90px;
+   padding-bottom: 60px;
+}
+.interest_section {
+   
+   padding: 70px 0px;
+}
+.interest_icon {
+   margin-left: auto;
+   margin-right: auto;
+   position: relative;
+   width: 60px;
+   
+}
+
+
+.interest_section h2 {
+   color: #ffffff;
+   text-transform: uppercase;
+   text-align: center;
+   font-size: 50px;
+   margin: 0;
+}
+
+.interest_wrapper {
+   display: flex;
+   flex-wrap: wrap;
+}
+.interest_wrapper .interest_item{
+   flex-grow: 1;
+   width: 33%;
+   padding: 20px;
+   box-sizing: border-box;
+}
+
+.interest_wrapper .interest_inner_wrapper {
+   /* border:2px solid #ffa800; */
+   padding: 50px 20px;
+}
+
+.interest_inner_wrapper .interest_title {
+   color: #ffffff;
+   text-align: center;
+   border-bottom: 1px solid #ffa800;
+   padding-bottom: 15px;
+}
+.interest_inner_wrapper .interest_title span:nth-child(1) {
+   font-size: 32px;
+   display: block;
+}
+.interest_inner_wrapper .interest_title span:nth-child(2) {
+   text-transform: uppercase;
+   font-size: 16px;
+   font-weight: 300;
+}
+.interest_inner_wrapper .interest_description {
+   color: #b8b8b8;
+   font-weight: 300;
+   font-size: 18px;
+   text-align: center;
+   padding: 20px 0px;
+   min-height: 70px;
+}
+
+.interest_inner_wrapper .interest_buttons {
+    text-align: center;
+}
