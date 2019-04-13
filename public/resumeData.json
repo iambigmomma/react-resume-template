@@ -14,8 +14,8 @@
       "state":"Bayern",
       "zip": "80809"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "website": "http://iambigmomma-website.s3-website-eu-west-1.amazonaws.com/",
+    "resumedownload":"https://drive.google.com/open?id=1YTPdqHyBjC6mHsJu9TeHpAwm5xRmIb1V",
     "social":[
       {
         "name":"linkedin",
@@ -55,14 +55,14 @@
         "school":"Technische Universität München",
         "degree":"Masters of science in Informatics",
         "graduated":"October 2017 - Present",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description":"I participated software engineering specialization with focus on web devleopment and cloud computing. The courses I took included Software Engineering for Business Applications, Cloud Computing and Project Organization and Management."
       },
       {
         "logo":"nccu-logo.png",
         "school":"National Chengchi University",
         "degree":"B.S. in Computer Science",
         "graduated":"September 2008 - June 2012",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description":"I double majored in Computer Science and Business Administration. "
       }
     ],
     "work":[
@@ -125,34 +125,29 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"Team Match",
+        "category":"Website for football team - Manchester City with match record and player data",
+        "image":"team-match.png",
+        "url":"https://team-match-33f32.firebaseapp.com/"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"Munich Agora",
+        "category":"A serverless applications integrated with React, AWS AppSync, Lambda, Cognito, S3, ElasticSearch, SES, DynamoDB and Amplify",
+        "image":"munich-agora.png",
+        "url":"https://goo.gl/v9kVfc"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "title":"ENDORSE",
+        "category":"(offline now) A project partner with BMW for data analysis and visulaization",
+        "image":"endorse.png",
+        "url":""
       },
+      
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
+        "title":"Jalu TV",
+        "category":"Sport streaming platform with multiple choices of commentators",
+        "image":"jalu-tv.png",
+        "url":"https://beta.jalu.tv"
       }
     ]
   },

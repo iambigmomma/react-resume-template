@@ -15,39 +15,42 @@ class Interest extends Component {
     showBoxes = () =>(
         this.state.titles.map((box,i) =>(
             <Zoom delay={this.state.delay[i]} key={i}>
-                <div className="interest_item">
-                    <div className="interest_inner_wrapper">
-                    <div className="row">
+                
+                <div className="four columns">
                         {/* <div className="interest_icon">
                             <img align="middle" alt={this.state.titles[i]} src={this.state.icons_address[i]} />
                         </div> */}
                         <div className="interest_title">
                             <span>{this.state.titles[i]}</span>
                         </div>
-                        <div className="interest_description">
-                            {this.state.desc[i]}
-                        </div>
-                        </div>
-                       
+                    <div className="interest_description">
+                        {this.state.desc[i]}
                     </div>
                 </div>
-
             </Zoom>
             
         ))
     )
 
     render() {
-        return (<div key={this.state.titles[0]} className="row">
+        return ( <section id="interest">
+        <div key={this.state.titles[0]} className="row">
                     <div className="bck_black">
                         <div className="center_wraper interest_section">
                             <h2>interest</h2>
                             <div className="interest_wrapper">
-                                {this.showBoxes()}
+                                <div className="interest_item">
+                                    <div className="interest_inner_wrapper">
+                                        <div className="row">
+                                            {this.showBoxes()}
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </section>
         )
         }
         // return (

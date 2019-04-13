@@ -1014,14 +1014,14 @@ footer .social-links li:first-child { margin-left: 0; }
 /* ------------------------------------------------------------------ */
 
 #interest {
-   background: #ebeeee;
+   background: #283131;
    padding-top: 90px;
    padding-bottom: 60px;
 }
-.interest_section {
+/* .interest_section {
    
    padding: 70px 0px;
-}
+} */
 .interest_icon {
    margin-left: auto;
    margin-right: auto;
